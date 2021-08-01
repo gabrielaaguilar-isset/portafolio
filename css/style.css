@@ -1,8 +1,10 @@
+body{
+    display: flex;
+}
 .menu{
    background: #ffd7e6; 
    width: 210px;
    height: 100vw;
-   position: fixed;
    box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.289);
    border-radius: 10px;
 
@@ -19,4 +21,76 @@
     font-size: 25px;
     padding: 15px;
     color: rgb(90, 85, 90);
+}
+.banner__group1{
+   display: flex;
+   width: 100%;
+
+}
+.banner__group1-div1{
+    background-color:#ffc1d5;
+    width: 8em;
+    height:9em;
+    padding: 20px;
+    position: absolute;
+
+}
+.banner__group1-div2{
+    background-color:#fa8fb1;
+    width: 7em;
+    height:5em;
+    opacity: .8;
+    position: absolute;
+    top: 15px;
+    left: 265px;   
+    z-index: 99;
+}
+
+
+.banner__group1-div3{
+    background-color:#fc6998;
+    width: 10em;
+    height:8em;
+    opacity: .8;
+     position: absolute;
+    top: 2px;
+    left: 265px;
+}
+.banner__group1-div4{
+    background-color:#f74780;
+    width: 15em;
+    height:9em;
+     position: absolute;
+    top: 18px;
+    left: 355px;
+}
+.banner__group1-div5{
+    background-color:#fc6998;
+    width: 12em;
+    height:15em;
+    position: absolute;
+    left: 418px;
+    z-index: -1;
+}
+.banner__group1-div6{
+    background-color:#ffc1d5;
+    width: 8em;
+    height:5em;
+    position: absolute;
+    top: 3px;
+    left: 589px;
+    z-index: 15;
+    opacity: .8;
+
+   
+}
+.banner__group1-div7{
+    background-color: #fa8fb1;
+    width: 16em;
+    height: 11em;
+    position: absolute;
+    top: 3px;
+    left: 605px;
+    opacity: .8;
+   
 }
