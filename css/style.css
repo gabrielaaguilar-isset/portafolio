@@ -80,17 +80,25 @@ body{
     top: 3px;
     left: 589px;
     z-index: 15;
-    opacity: .8;
-
-   
+    opacity: .8;   
 }
 .banner__group1-div7{
-    background-color: #fa8fb1;
+    background-color: #fc6998;
     width: 16em;
     height: 11em;
     position: absolute;
     top: 3px;
     left: 605px;
     opacity: .8;
+   
+}
+.banner__group1-div8{
+    background-color: #fc6998;
+    width: 16em;
+    height: 16em;
+    position: absolute;
+    left: 635px;
+    opacity: .8;
+    z-index: -1;
    
 }
