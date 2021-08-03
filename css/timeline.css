@@ -110,16 +110,18 @@ section {
 
 .timeline-card p {
   padding: 0 20px;
+  font-family: 'Roboto';
 }
 
 .timeline-card a {
   margin-left: 20px;
+  text-decoration: none;
 }
 
 .timeline-item .timeline-img-header {
   /* 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('asset/') center center no-repeat;
  */
-  background-image: url("../asset/Desarrollo-web-i.png");
+  background-image: url("../asset/git.png");
   background-size: cover;
 }
 
@@ -127,6 +129,20 @@ section {
   /* 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('asset/') center center no-repeat;
  */
   background-image: url("../asset/Desarrollo-web-ii.png");
+  background-size: cover;
+}
+
+.timeline-item .timeline-img-header3 {
+  /* 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('asset/') center center no-repeat;
+ */
+  background-image: url("../asset/competencia-digitales-para-profesionales.png");
+  background-size: cover;
+}
+
+.timeline-item .timeline-img-header4 {
+  /* 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('asset/') center center no-repeat;
+ */
+  background-image: url("../asset/ada.png");
   background-size: cover;
 }
 
@@ -150,6 +166,32 @@ section {
 }
 
 .timeline-img-header2 h2 {
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.timeline-img-header3 {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-img-header3 h2 {
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.timeline-img-header4 {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-img-header4 h2 {
   color: #FFFFFF;
   position: absolute;
   bottom: 5px;
