@@ -157,6 +157,13 @@ section {
         background-size: cover;
 		}
 }
+.timeline-item {
+  .timeline-img-header5 {
+/* 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('asset/') center center no-repeat;
+ */		background-image: url("../asset/Desarrollo-web-i.png");	
+        background-size: cover;
+		}
+}
 
 
 
@@ -200,6 +207,19 @@ section {
 	}
 }
 .timeline-img-header4 {
+
+	height: 200px;
+	position: relative;
+	margin-bottom: 20px;
+
+	h2 {
+		color: $text;
+		position: absolute;
+		bottom: 5px;
+		left: 20px;
+	}
+}
+.timeline-img-header5 {
 
 	height: 200px;
 	position: relative;
