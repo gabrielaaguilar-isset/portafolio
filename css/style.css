@@ -7,6 +7,7 @@ body{
    height: 100vh;
    box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.289);
    border-radius: 10px;
+   position: fixed;
 
 }
 .menu__principal{
@@ -25,6 +26,14 @@ body{
 .banner{
    width: 2560px;
  /*   bottom: 100px; */
-
-
+}
+/* .gabriela-a{
+    position:relative;
+    bottom: 600px;
+    width: 350px;
+    right: 0;
+} */
+.cls-1{
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+  
 }
