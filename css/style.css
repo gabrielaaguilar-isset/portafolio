@@ -160,6 +160,32 @@ input[type="checkbox"]{
    width: 100%;
  /*   bottom: 100px; */
 }
+.Sobre__mi{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+.Sobre__mi-h2 {
+  display: flex;
+  width: 20%;
+  align-items: center;
+ 
+}
 
+.Sobre__mi-h2 h2{
+ transform: rotate(-90deg);
+ letter-spacing: 15px;
+  
+}
+.Sobre__mi-p{
+  display: flex;
+  bottom: 45px;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-right:35px ;
+}
 
 
